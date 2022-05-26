@@ -92,7 +92,25 @@ header ul li a:hover{
     background-color: #1173b5;
 }
 header .logo{
-    color:darkgreen
+    color:rgb(12, 126, 12);
+    animation: logoanimation 5s linear infinite;
+}
+
+@keyframes logoanimation{
+    0%,
+    100% {
+        transform: translateX(15px);
+    }
+
+
+
+    50% {
+        transform: translatey(15px);
+    }
+
+    75% {
+        transform: translateZ(10px);
+    }
 }
 
 .content {
@@ -155,7 +173,7 @@ header .logo{
 
 
     50% {
-        transform: translatey(100px);
+        transform: translatey(50px);
     }
 
     75% {
