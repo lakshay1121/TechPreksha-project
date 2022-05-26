@@ -216,3 +216,12 @@ header .logo{
 .sci li:hover a img {
     transform: scale(0.6) rotate(360deg);
 }
+.sci li .fb:hover{
+    background-color: #4267B2;
+}
+.sci li .twitter:hover{
+    background-color: #1DA1F2;
+}
+.sci li .insta:hover{
+    background-color: #FFC0CB;
+}
